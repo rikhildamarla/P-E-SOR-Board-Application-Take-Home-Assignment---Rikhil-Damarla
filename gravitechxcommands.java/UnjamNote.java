@@ -34,7 +34,8 @@ public class UnjamNote extends Command {
   @Override
   public void execute() {
     Logger.recordOutput("UTBAE", Shooter.shooterFlyWheelBottom.outputVelocity());
-    Shooter.unjamNote();
+    Shooter.retraction();
+
   }
 
   // Called once the command ends or is interrupted.
